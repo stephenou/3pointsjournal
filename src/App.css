@@ -1,0 +1,139 @@
+.container {
+    display: flex;
+    font-size: 15px;
+    height: 100vh;
+    background: #FFF8F0;
+    font-weight: 500;
+    font-family: 'Avenir', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+.left {
+    flex: 1;
+    overflow-y: scroll;
+    padding: 0 20px;
+    border-right: 1px solid #DDD;
+}
+
+.middle {
+    flex: 3;
+    overflow-y: scroll;
+    padding: 0 20px;
+    border-right: 1px solid #DDD;
+}
+
+.right {
+    flex: 2;
+    overflow-y: scroll;
+    padding: 0 20px;
+}
+
+.info > div {
+    padding: 5px 0;
+}
+
+.backlink {
+    margin: 0 -10px;
+    padding: 5px 10px;
+}
+
+.backlink:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.backlink .link {
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.buttons button {
+    background: #FFF8F0;
+    border: 1px solid #900;
+    color: #900;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.link {
+    cursor: pointer;
+    color: #900;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-grow {
+    flex: 1;
+}
+
+.count {
+    padding-left: 10px;
+    color: #999;
+}
+
+.entry {
+    padding-bottom: 15px;
+    color: #333;
+    line-height: 22.5px;
+}
+
+.is-editing .entry {
+    color: #999;
+}
+
+.entry:focus {
+    color: #333;
+}
+
+.info {
+    margin-bottom: 20px;
+    color: #999;
+}
+
+.search input {
+    padding: 5px 10px;
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.autosuggest {
+    position: absolute;
+    border: 1px solid #DDD;
+}
+
+.autosuggest div {
+    background: #FFF;
+    padding: 5px 10px;
+}
+
+.autosuggest div:hover {
+    cursor: pointer;
+    background: #EEE;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+* {
+    box-sizing: border-box;
+}
